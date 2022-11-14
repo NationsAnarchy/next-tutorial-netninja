@@ -32,7 +32,7 @@ export default function Details({ ninja }) {
   return (
     <div>
       <Head>
-        <title>Ninja List Website - Details: {ninja.name}</title>
+        <title>Ninja List Website - Details</title>
       </Head>
       <h1>Details: {ninja.name}</h1>
       <p>Email: {ninja.email}</p>
