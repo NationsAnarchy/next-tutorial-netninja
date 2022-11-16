@@ -1,11 +1,13 @@
 import React from 'react'
 
+const year = new Date().getFullYear()
+
 export default function Footer() {
   return (
     <footer>
-      Copyright 2022 - Ninja List Website. Thanks{' '}
+      Copyright {year} - Ninja List Website. Thanks{' '}
       <a href='https://netninja.dev' target='_blank' rel='noreferrer'>
-        Shaun!
+        Shaun aka The Net Ninja Dev.
       </a>
     </footer>
   )

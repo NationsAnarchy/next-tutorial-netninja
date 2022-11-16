@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import { userAgent } from 'next/server'
 
 export const getStaticPaths = async () => {
   const res = await fetch('https://jsonplaceholder.typicode.com/users')
